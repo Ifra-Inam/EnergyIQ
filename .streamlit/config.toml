@@ -1,0 +1,5 @@
+[theme]
+primaryColor = "#42a063"   # This is the accent color (buttons, sliders)
+backgroundColor = "#ffffff" # App background
+secondaryBackgroundColor = "#f0f2f6" # Sidebar background
+textColor = "#000000"       # Text color

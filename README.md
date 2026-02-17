@@ -1,4 +1,4 @@
-# EnergyIQ
+# EnergyIQ ⚡
 
 **EnergyIQ** is a building energy efficiency prediction app. It takes building features as input and predicts the **heating and cooling loads**. The app provides a comparison chart against average, most efficient, and least efficient buildings, along with **AI insights** that include interpretation of the prediction, three actionable recommendations, and estimated potential savings.
 
@@ -67,7 +67,9 @@ python training.py
 
 2. Create a .env file in the root directory with your GROQ API key:
 
+```text
 GROQ_API_KEY=your_api_key_here
+````
 
 3. Run the Streamlit app:
 
@@ -84,6 +86,6 @@ streamlit run app.py
   - Interpretation of the prediction
   - Three actionable recommendations
   - Estimated potential savings
-
+    
 ## License
 This project is licensed under the MIT License — feel free to use, modify, and distribute it.

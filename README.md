@@ -83,9 +83,9 @@ streamlit run app.py
 2. App predicts heating and cooling loads.
 3. Displays a comparison chart against average, most efficient, and least efficient buildings.
 4. Provides AI insights:
-  - Interpretation of the prediction
-  - Three actionable recommendations
-  - Estimated potential savings
+   - Interpretation of the prediction
+   - Three actionable recommendations
+   - Estimated potential savings
     
 ## License
 This project is licensed under the MIT License — feel free to use, modify, and distribute it.

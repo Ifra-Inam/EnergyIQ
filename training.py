@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
-from sklearn.svm import SVR
+from sklearn.ensemble import RandomForestRegressor
 from imblearn.pipeline import Pipeline
 import joblib
 
@@ -14,12 +14,12 @@ y2 = df.iloc[:,-1]
 
 pipe_heating = Pipeline([
     ('scaler', StandardScaler()),
-    ('model', SVR(C=100))
+    ('model', RandomForestRegressor(n_estimators=100))
 ])
 
 pipe_cooling = Pipeline([
     ('scaler', StandardScaler()),
-    ('model', SVR(C=100))
+    ('model', RandomForestRegressor(n_estimators=100))
 ])
 
 pipe_heating.fit(X, y1)
